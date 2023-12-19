@@ -1,0 +1,15 @@
+services:
+  foodmenu-frontend:
+    image: aamadeuss/foodmenu-frontend:latest
+    container_name: foodmenu-frontend
+    stdin_open: true
+    ports:
+      - "3000:3000"
+  foodmenu-backend:
+    image: aamadeuss/foodmenu-backend:latest
+    container_name: foodmenu-backend
+    stdin_open: true
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend/logs:/usr/src/app/logs

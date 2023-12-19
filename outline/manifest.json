@@ -1,0 +1,18 @@
+{
+    "lang": "en-us",
+    "name": "Oota",
+    "short_name": "Oota",
+    "description": "Food menu and Feedback",
+    "start_url": "/",
+    "background_color": "#1e293b",
+    "theme_color": "#1e293b",
+    "orientation": "portrait",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "oota-icon-512x512.png",
+            "sizes": "512x512"
+        }
+    ],
+    "version": "0.0.3"
+}
